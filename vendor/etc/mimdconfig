@@ -1,0 +1,64 @@
+actionitem {
+
+[
+name:dropcache
+path:/proc/sys/vm/drop_caches
+]
+
+[
+name:global_reclaim
+path:/proc/perfmgr/global_reclaim
+]
+
+[
+name:min_free_kbytes
+path:proc/sys/vm/min_free_kbytes
+]
+
+}
+
+policy {
+
+[
+name:		global_reclaim
+memitem:	memitem_init
+algo:	        low
+threshold:	4
+actionitem:	global_reclaim
+target:		262144
+]
+
+[
+name:           init_params
+memitem:        memitem_init
+algo:           low
+threshold:      4
+actionitem:     min_free_kbytes
+target:         5792
+mem_size:	3
+
+]
+
+[
+name:           init_params
+memitem:        memitem_init
+algo:           low
+threshold:      4
+actionitem:     min_free_kbytes
+target:         7700
+mem_size:	4
+
+]
+
+[
+name:           init_params
+memitem:        memitem_init
+algo:           low
+threshold:      4
+actionitem:     min_free_kbytes
+target:         9386
+mem_size:	6
+
+]
+
+}
