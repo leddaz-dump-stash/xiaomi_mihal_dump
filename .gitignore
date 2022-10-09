@@ -1,0 +1,15 @@
+system/system/data-app/MIMediaEditor/MIMediaEditor.apk
+system/system/data-app/MIUIVipAccount/MIUIVipAccount.apk
+system/system/data-app/MIUIYoupin/MIUIYoupin.apk
+system/system/data-app/MiShop/MiShop.apk
+system/system/data-app/SmartHome/SmartHome.apk
+system/system/priv-app/MIUIGallery/MIUIGallery.apk
+system/system/priv-app/MIUIMusicStable/MIUIMusicStable.apk
+system/system/priv-app/MIUIVideo/MIUIVideo.apk
+system/system/priv-app/MiBrowser/MiBrowser.apk
+system/system/priv-app/MiuiCamera/MiuiCamera.apk
+system/system/system_ext/apex/com.android.vndk.v30.apex
+system/system/system_ext/priv-app/Settings/Settings.apk
+vendor/lib64/mt6983/libaibc_tuning.so
+product/app/WebViewGoogle/WebViewGoogle.apk
+product/priv-app/GmsCore/GmsCore.apk
