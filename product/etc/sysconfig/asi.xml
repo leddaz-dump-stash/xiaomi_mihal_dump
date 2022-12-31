@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- ASI integration. To enable Playstore update -->
+    <!-- Use this if ASI Features APK is preloaded (and do NOT use com.google.android.feature.ASI_MINIMAL) -->
+    <feature name="com.google.android.feature.ASI" />
+
+    <!-- Use this if ASI Infrastructure APK is preloaded (and do NOT use com.google.android.feature.ASI)
+    <feature name="com.google.android.feature.ASI_MINIMAL" /> -->
+
+    <!-- Restrict ASI and Private Compute Services -->
+    <allow-association target="com.google.android.as" allowed="com.android.bluetooth" />
+    <allow-association target="com.google.android.as" allowed="com.android.providers.contacts" />
+    <allow-association target="com.google.android.as" allowed="com.android.providers.media" />
+    <allow-association target="com.google.android.as" allowed="com.android.providers.telephony" />
+    <allow-association target="com.google.android.as" allowed="com.android.systemui" />
+    <allow-association target="com.google.android.as" allowed="com.google.android.providers.media.module" />
+    <allow-association target="com.google.android.as" allowed="com.google.android.as.oss" />
+    <allow-association target="com.google.android.as.oss" allowed="com.google.android.as" />
+</config>

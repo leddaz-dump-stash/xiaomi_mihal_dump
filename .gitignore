@@ -1,0 +1,12 @@
+system/system/app/MIUIVideoPlayer/MIUIVideoPlayer.apk
+system/system/data-app/MIMediaEditorGlobal/MIMediaEditorGlobal.apk
+system/system/priv-app/MIBrowserGlobal/MIBrowserGlobal.apk
+system/system/priv-app/MIUIGalleryGlobalTemp/MIUIGalleryGlobalTemp.apk
+system/system/priv-app/MiuiCamera/MiuiCamera.apk
+system/system/system_ext/apex/com.android.vndk.v30.apex
+system/system/system_ext/priv-app/Settings/Settings.apk
+vendor/lib64/mt6895/libaibc_tuning.so
+product/app/WebViewGoogle/WebViewGoogle.apk
+product/priv-app/GmsCore/GmsCore.apk
+product/priv-app/Messages/Messages.apk
+product/priv-app/Velvet/Velvet.apk
